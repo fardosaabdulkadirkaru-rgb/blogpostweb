@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><span class="brand-name">Nuria Gollo <span class="hsc">H.S.C.</span></span> Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #007bff !important;
+        }
+        .hero {
+            background-image: url('images/nuria 1.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+            position: relative;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        .card {
+            background-color: #333;
+            color: #fff;
+            border: 1px solid #555;
+        }
+        .card-title {
+            color: #fff;
+        }
+        .card-text {
+            color: #ccc;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><span class="brand-name">Nuria Gollo <span class="hsc">H.S.C.</span></span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog Posts
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="post1.html">Introduction</a></li>
+                            <li><a class="dropdown-item" href="post2.html">Vision & Goals</a></li>
+                            <li><a class="dropdown-item" href="post3.html">Leadership Journey</a></li>
+                            <li><a class="dropdown-item" href="post4.html">Impact and Achievements</a></li>
+                            <li><a class="dropdown-item" href="post5.html">Call to Action</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content container">
+                <h1>Welcome to <span class="brand-name">Nuria Gollo <span class="hsc">H.S.C.</span></span>'s Blog</h1>
+                <p>A beacon of resilience and leadership in the Borana indigenous community of Northern Kenya.</p>
+                <a href="#posts" class="btn btn-primary mt-3">Explore Posts</a>
+            </div>
+        </section>
+        <section id="posts" class="container my-5">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="images/nuria 1.jpg" class="card-img-top" alt="Nuria Gollo">
+                        <div class="card-body">
+                            <h5 class="card-title">Introduction: Who is <span class="brand-name">Nuria Gollo <span class="hsc">H.S.C.</span></span>?</h5>
+                            <p class="card-text">October 15, 2023</p>
+                            <p class="card-text">Discover the inspiring background of Nuria Gollo H.S.C., a dedicated educator and activist from the Borana community in Northern Kenya. Learn about her journey from humble beginnings to becoming a champion for women's rights and community development.</p>
+                            <a href="post1.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="images/nuria 2.jpg" class="card-img-top" alt="Vision">
+                        <div class="card-body">
+                            <h5 class="card-title">Vision & Goals: Empowering Women and Communities</h5>
+                            <p class="card-text">October 20, 2023</p>
+                            <p class="card-text">Explore Nuria's unwavering commitment to women's empowerment, addressing key issues like education, healthcare, and gender-based violence in Kenya. Her vision for a stronger, more equitable community shines through.</p>
+                            <a href="post2.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="images/nuria 3.jpg" class="card-img-top" alt="Journey">
+                        <div class="card-body">
+                            <h5 class="card-title">Leadership Journey: From Educator to Activist</h5>
+                            <p class="card-text">October 25, 2023</p>
+                            <p class="card-text">Follow Nuria's transformative path from a passionate educator to a grassroots activist and leader in MWADO. Her story of resilience and determination inspires change in Northern Kenya.</p>
+                            <a href="post3.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="images/nuria 4.jpg" class="card-img-top" alt="Impact">
+                        <div class="card-body">
+                            <h5 class="card-title">Impact and Achievements: Recognition on a Global Stage</h5>
+                            <p class="card-text">October 30, 2023</p>
+                            <p class="card-text">Celebrate Nuria's accolades, including the Hero’s Award and Head of State Commendation. Her influence extends to international platforms like The Guardian and CBC Canada Radio.</p>
+                            <a href="post4.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="images/nuria 5.jpg" class="card-img-top" alt="Call to Action">
+                        <div class="card-body">
+                            <h5 class="card-title">Call to Action: Join the Movement</h5>
+                            <p class="card-text">November 5, 2023</p>
+                            <p class="card-text">Learn how you can support Nuria's efforts against FGM, promote indigenous women’s rights, and engage in community initiatives. Together, we can drive meaningful change.</p>
+                            <a href="post5.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="images/nuria 6.jpg" class="card-img-top" alt="New Post">
+                        <div class="card-body">
+                            <h5 class="card-title">New Post: Continuing the Legacy</h5>
+                            <p class="card-text">November 10, 2023</p>
+                            <p class="card-text">Explore the ongoing efforts and future plans to empower women and communities inspired by Nuria Gollo H.S.C.'s leadership and vision.</p>
+                            <a href="post6.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Contact Information</h5>
+                    <p>Email: nuria@example.com<br>Phone: +254 123 456 789</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <i class="fab fa-facebook fa-2x me-3"></i>
+                    <i class="fab fa-twitter fa-2x me-3"></i>
+                    <i class="fab fa-instagram fa-2x"></i>
+                </div>
+                <div class="col-md-4">
+                    <h5>Newsletter Signup</h5>
+                    <form>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center">&copy; 2023 <span class="brand-name">Nuria Gollo <span class="hsc">H.S.C.</span></span>. All rights reserved.</p>
+    
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
